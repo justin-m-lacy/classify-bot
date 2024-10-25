@@ -1,0 +1,46 @@
+{
+  "ts-node": {
+    "require": [ "tsconfig-paths/register" ],
+  },
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "esnext",
+    "module": "nodenext",
+    "allowJs": true,
+    "useDefineForClassFields": true,
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "incremental": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ]
+    },
+    "lib": [
+      "esnext"
+    ]
+  },
+  "references": [ { "path": "tsconfig.node.json" } ],
+  "typeAcquisition": {
+    "enable": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "strip-package.ts"
+  ],
+  "include": [
+    "strip-package.ts",
+    "src/**/*.json",
+    "auth.json",
+    "src/utils/users.ts",
+  ]
+}

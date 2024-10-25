@@ -1,0 +1,38 @@
+# Private Configuration Files
+reactions.json
+auth.json
+config.json
+.env
+
+.vscode
+
+savedata
+devdata
+dist
+
+# Node Nonsense
+node_modules
+*.lnk
+package-lock.json
+
+# saved client link for easy bot linking
+client_link.txt
+
+#VSCode
+
+*.code-workspace
+plugins/chess/images/outfile.png
+
+*.code-workspace
+
+archconfig.json
+config.json
+
+app.yaml
+.gcloudignore
+.env
+archlog.txt
+*.log
+
+keystore.json
+node_modules

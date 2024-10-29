@@ -14,9 +14,11 @@
   "dependencies": {
     "@tensorflow-models/toxicity": "^1.2.2",
     "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node-gpu": "^4.22.0",
     "archcache": "^1.2.1",
     "discord.js": "^14.16.3",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "node-pre-gyp": "^0.17.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
